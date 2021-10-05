@@ -1,0 +1,95 @@
+
+\documentclass{beamer}
+\usepackage{graphicx}
+\usepackage[backend=biber]{biblatex}
+\usepackage{color, colortbl}
+\addbibresource{sample.bib}
+%Information to be included in the title page:
+\title{Corda Blockchain}
+\usetheme{Copenhagen}
+\useinnertheme{circles}
+%\usecolortheme{albatross}
+%\useoutertheme{Albatross}
+%\usetheme[hideothersubsections]{/home/sahil/beamerports/PraterStreet}
+\author{Sahil Singh,Doniyor Nafasov}
+\institute{University of Sussex}
+\date{2021}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{Public vs Private Blockchain}
+
+\begin{figure}
+	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{privpublic.jpeg}
+	\caption{Comparision between the two types} \nocite{luxtag}
+  \label{fig:boat1}
+\end{figure}
+
+\end{frame}
+\begin{frame}{Private Blockchain in Financial Services}
+\begin{itemize}
+\item Capital Markets
+\begin{itemize}
+    \item Issuance
+    \item Sales and trading
+    \item Clearing and Settlement
+	\\[1ex]
+\end{itemize}
+\item Asset Management
+\begin{itemize}
+    \item Fund Launch
+    \item Fund administration
+    \item Transfer agency in asset management
+	\\[1ex]
+\end{itemize}
+\item Banking and Lending
+\begin{itemize}
+    \item Credit Prediction and Credit Scoring
+    \item Asset Collateralization
+\end{itemize}
+
+
+
+
+\end{itemize}
+
+
+\end{frame}
+
+\begin{frame}{Introduction to  Corda}
+	\begin{itemize}
+
+\item Corda helps businesses in Banking, Capital Markets, Trade Finance, Insurance and beyond to transact directly and in strict privacy using smart contracts, reducing transaction and record-keeping costs and streamlining business operations.
+	\\[3ex]
+\item It is built for highly regulated industries.
+	\\[3ex]
+\item Delivers the core attributes of open source with enterprise functionality, services and support.
+\end{itemize}
+\end{frame}
+\begin{frame}{Challenges Faced by Corda}
+\begin{itemize}
+   \item  The absence of blocks makes the simplification of validation impossible and requires to perform complete verification of transaction history which will become more resource-consuming over time. 
+	    \\[1ex]
+    \item Corda is vulnerable to double-spending attacks which requires using special oracles to prevent attackers from performing such kind of attack.
+
+\end{itemize}
+\end{frame}
+\begin{frame}{Benefits of Corda in Finance }
+    The immutability and transparency of a Corda blockchain help empower financial institutions for gaining fast and secure access to up-to-date customer data. 
+		\nocite{alehub.io_2018},\nocite{corda}     
+\begin{itemize}
+ \item Transaction finality.
+ \item Ability to scale.
+ \item Privacy.
+ \item Legally identified parties.
+ \item Developer productivity and enterprise integration.
+\end{itemize}
+
+\end{frame}
+\begin{frame}
+\printbibliography
+
+\end{frame}
+\end{document}
